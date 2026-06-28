@@ -656,15 +656,25 @@ img{
 @media (max-width:768px){
 
     .navbar{
-        flex-direction:column;
-        gap:20px;
-        padding:20px;
+        flex-direction:row;
+        padding: 15px 20px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
     }
 
     .nav-links{
-        flex-direction:column;
-        gap:15px;
+        flex-direction:row;
+        gap:12px;
+        display: flex;
         text-align:center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-links a{
+        font-size: 14px;
     }
 
     .hero{
